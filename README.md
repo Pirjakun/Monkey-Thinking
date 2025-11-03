@@ -58,6 +58,7 @@ Dibuat pake **Python + OpenCV + MediaPipe**
 ## 📂 Struktur Folder
 
 Monkey-Thinking/
+```
 ├── monkey_pose_clean_final.py
 ├── diam.jpg
 ├── aha.jpg
@@ -65,7 +66,7 @@ Monkey-Thinking/
 ├── think.jpg
 ├── aha with open mouth.jpg
 └── README.md
-
+```
 ---
 
 ## 🧠 Tentang Project Ini
