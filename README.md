@@ -56,9 +56,8 @@ Dibuat pake **Python + OpenCV + MediaPipe**
 ---
 
 ## 📂 Struktur Folder
-
-Monkey-Thinking/
 ```
+Monkey-Thinking/
 ├── monkey_pose_clean_final.py
 ├── diam.jpg
 ├── aha.jpg
