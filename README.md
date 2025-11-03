@@ -1,9 +1,9 @@
 # 🐒 Monkey Thinking  
 
 Project iseng tapi keren: bikin **monyet yang ngikutin gerakan dan ekspresi muka lo secara real-time!**  
-Pakai kamera laptop/PC, dan tiap lo gerak — si monyet juga bakal ngikutin gayanya 😎  
+Pakai kamera laptop/PC, dan tiap lo gerak, si monyet juga bakal ngikutin gayanya 
 
-Dibuat pake **Python + OpenCV + MediaPipe**, hasilnya bisa bikin ngakak 🤣  
+Dibuat pake **Python + OpenCV + MediaPipe**  
 
 ---
 
@@ -13,61 +13,50 @@ Dibuat pake **Python + OpenCV + MediaPipe**, hasilnya bisa bikin ngakak 🤣
 2. Buka terminal / CMD, terus install bahan-bahannya:
    ```bash
    pip install opencv-python mediapipe numpy
-Clone repo-nya:
 
-bash
-Copy code
-git clone https://github.com/<username>/Monkey-Thinking.git
-cd Monkey-Thinking
-Masukin semua gambar monyet ke folder yang sama:
+3. Clone repo-nya:
+   ```bash
+   git clone https://github.com/Pirjakun/Monkey-Thinking.git
+   cd Monkey-Thinking
+5. Jalankan Programnya:
+   ```bash
+   python monkey_pose.py
+6. Pencet CTRL + C kalo mau keluar dari program.
 
-python
-Copy code
-diam.jpg
-aha.jpg
-shock.jpg
-think.jpg
-aha with open mouth.jpg
-Jalankan programnya:
+---
 
-bash
-Copy code
-python monkey_pose_clean_final.py
-Gerakin badan & muka lo, liat si monyet ngikutin ekspresi lo 😆
+## ✨ Fitur Keren
 
-Pencet Q kalo mau keluar dari program.
+- Kamera nyala langsung deteksi muka & tangan.
+- Gerakan lo langsung diterjemahin ke ekspresi monyet.
+- Tampilan bersih, gak ada titik-titik aneh di muka.
+- Jalan offline, gak perlu internet.
+- Bisa lo ubah dan tambahin fitur lain sesuka hati
 
-✨ Fitur Keren
-Kamera nyala langsung deteksi muka & tangan.
+---
 
-Gerakan lo langsung diterjemahin ke ekspresi monyet.
+## 🐵 Pose yang Bisa Dipake
+| Pose            | Aksi yang Lo Lakuin                               |
+| --------------- | ------------------------------------------------- |
+| 😐 **Diam**     | Cuma duduk santai, gak ngapa-ngapain.             |
+| 🙋 **Aha**      | Tangan diangkat ke atas.                          |
+| 😱 **Shock**    | Mulut kebuka + tangan di dada.                    |
+| 🤔 **Think**    | Tangan di mulut..          |
+| 😆 **Aha_open** | Mulut kebuka lebar tapi tangan gak ngapa-ngapain. |
 
-Tampilan bersih, gak ada titik-titik aneh di muka.
+---
 
-Jalan offline, gak perlu internet.
+## 🧩 Teknologi yang Dipake
 
-Bisa lo ubah dan tambahin fitur lain sesuka hati 😎
+- Python 🐍
+- OpenCV 📸
+- MediaPipe 🤖
+- NumPy 🔢
 
-🐵 Pose yang Bisa Dipake
-Pose	Aksi yang Lo Lakuin
-😐 Diam	Cuma duduk santai, gak ngapa-ngapain.
-🙋 Aha	Tangan diangkat ke atas.
-😱 Shock	Mulut kebuka + tangan di dada.
-🤔 Think	Tangan di mulut, ala mikir dalem banget.
-😆 Aha_open	Mulut kebuka lebar tapi tangan gak ngapa-ngapain.
+---
 
-🧩 Teknologi yang Dipake
-Python 🐍
+## 📂 Struktur Folder
 
-OpenCV 📸
-
-MediaPipe 🤖
-
-NumPy 🔢
-
-📂 Struktur Folder
-python
-Copy code
 Monkey-Thinking/
 ├── monkey_pose_clean_final.py
 ├── diam.jpg
@@ -75,22 +64,14 @@ Monkey-Thinking/
 ├── shock.jpg
 ├── think.jpg
 ├── aha with open mouth.jpg
-└── Panduan_MonkeyPose.txt
-🧠 Tentang Project Ini
-Awalnya cuma iseng, tapi ternyata seru banget 🤯
-Dari deteksi muka sama tangan, sampai monyetnya bisa nyamain ekspresi lo secara real-time.
-Cocok buat belajar computer vision tapi dengan gaya santai dan ngakak 😂
+└── README.md
 
-💡 Ide Pengembangan
-Kalo lo mau ngoprek, bisa banget nambahin:
+---
 
-suara monyet tiap pose,
+## 🧠 Tentang Project Ini
 
-background custom,
+Ini dibuat jam 1 malem. padahal ntar siang ada UTS njirr, iseng-iseng doang sih.
 
-atau ubah karakternya jadi hewan lain 🦊
+## 📸 Demo
+<img width="1610" height="942" alt="image" src="https://github.com/user-attachments/assets/cc8e60d6-9890-4d75-b699-1ef6f66312ea" />
 
-📸 Demo
-(Lo bisa tambahin screenshot atau GIF di sini)
-Kiri: lo sendiri 😎
-Kanan: monyet yang ngikutin lo 🐵
